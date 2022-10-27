@@ -5,7 +5,7 @@ This project is designed to help you plan your day to day schedule through mappi
 ## Table of Contents
 
 - Project overview
-- setup instructions
+- Setup instructions
 - Wireframes
 - POJOs
 - CRUD commands
