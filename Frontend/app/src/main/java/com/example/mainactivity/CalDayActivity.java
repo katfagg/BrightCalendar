@@ -1,7 +1,7 @@
 package com.example.mainactivity;
 
 
-import static com.example.calendarfrontend.CalendarUtils.selectedDate;
+import static com.example.mainactivity.CalendarUtils.selectedDate;
 
 import android.content.Intent;
 import android.os.Bundle;
