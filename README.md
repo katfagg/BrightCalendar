@@ -9,7 +9,7 @@ This project is designed to help you plan your day to day schedule through mappi
 - [Project Structure - Wireframes (UML, ERD)](#Project-Structure--Wireframes-(UML,ERD))
 - [POJOs](POJOs)
 - [CRUD Functions/commands](CRUD-Functions--commands)
-- [Further Implementations and Extensions](further-implementations-and-extensions)
+- [Further Implementations and Extensions](Further-Implementations-and-Extensions)
 
 ## Project Overview
 
