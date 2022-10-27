@@ -1,6 +1,6 @@
 # Bright Calender
 
-This project is designed to help you plan your day to day schedule through mapping out goals and prioritise tasks.
+This project is designed to help you plan your day to day schedule through mapping out goals and prioritise tasks efficiently.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ This project is designed to help you plan your day to day schedule through mappi
 
 ## Project Overview
 
-Bugdroid Baddies have been tasked to Our Bright Calendar is an accesible, user friendly app aimed for those looking for a way to keep organised. This was created using Android Studio and Spring to come up with the finest calendar app for the go.
+Bugdroid Baddies have been tasked to build an accesible, user friendly app aimed for those looking for a way to keep organised. This was created using Android Studio and Spring to come up with the finest calendar app for the go.
 
 Features include:
 
