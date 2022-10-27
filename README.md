@@ -6,7 +6,7 @@ This project is designed to help you plan your day to day schedule through mappi
 
 - Project overview
 - Set Up instructions
-- Project Structure - Wireframes (UML, ERD
+- Project Structure - Wireframes (UML, ERD)
 - POJOs
 - CRUD Functions/commands
 - Further Implementations and Extensions
@@ -17,11 +17,17 @@ Bugdroid Baddies have been tasked to build an accesible, user friendly app aimed
 
 Features include:
 
+- Individual log in for user
+- Password authentication
+- Calendar
+- To do list
+- Notes page
+
 
 ## Set Up Instructions
 
 1. First ensure that Android Studio is installed.
-2. Then, clone this repository by clicking the green 'code' sign on top of this page. Click the SSH key and type in your terminal the following: git clone "git@github.com:katfagg/BrightCalendar.git".
+2. Then, clone this repository by clicking the green 'code' sign on top of this page. Click the SSH key and type in your terminal the following: git clone [git@github.com:katfagg/BrightCalendar.git]("git@github.com:katfagg/BrightCalendar.git").
 3. Open the file.
 4. Create a Firebase authentication and real-time database using the Firebase console.
 5. Then, use the Android Studio Firebase tools to connect to Firebase and install the relevant SDK's.
@@ -38,10 +44,10 @@ Features include:
 
 ## POJOs
 
-We have also used POJO's (Plain Old Java Objects) within our project. Here are some listed below.
+We have also used POJO's (Plain Old Java Objects) within our project. Here they are listed below.
 
 - User - ID, name, email, password
-- ToDoList - ID, name, date, time
+- ToDoList - ID, name, detail, date, time
 - Notes - ID, name
 
 
@@ -54,16 +60,16 @@ localhost:8080/...
 
 | HTTP Request Paths | Request Type | Description |
 |:---:|:---:|:---:|
-| .../ | GET | Gets the user by ID |
-| .../ | POST | Creates the user |
-| .../| PATCH | Updates the users password by ID |
-| .../ | GET | Gets the to do list by ID |
-| .../ | POST | Creates the to do list |
-| .../ | DELETE | Deletes the to do list by ID |
-| .../ | GET | Gets the notes by ID |
-| .../ | POST | Posts a note |
-| .../ | PATCH | Patchs a note by ID and name  |
-| .../ | DELETE | Deletes the note by ID |
+| .../users/{id} | GET | Gets the user by ID |
+| .../users | POST | Creates the user |
+| .../users/{id}/password| PATCH | Updates the users password by ID |
+| .../toDoLists/{id} | GET | Gets the to do list by ID |
+| .../toDoLists | POST | Creates the to do list |
+| .../toDoLists/{id} | DELETE | Deletes the to do list by ID |
+| .../notes/{id} | GET | Gets the notes by ID |
+| .../notes | POST | Posts a note |
+| .../notes/{id}/name | PATCH | Patches a note by ID and name  |
+| .../notes/{id} | DELETE | Deletes the note by ID |
 
 
 
@@ -72,8 +78,8 @@ localhost:8080/...
 For the extensions our team had come up with a number a great ideas to implement within our project, some of these include:
 
 - Providing the user a Google sign in option instead of registering.
-- Calendar....
-- Adding and customising to a users desired color scheme
-- Create groups of users to use a shared page
+- Pushing notifications for events on the Calendar.
+- Adding and customising to a users desired color scheme.
+- Create groups of users to use a shared page.
 
 In the future we would like to host the app on Android Playstore for users to really use.
