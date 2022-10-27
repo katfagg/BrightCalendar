@@ -27,7 +27,6 @@ public class SplashPage extends AppCompatActivity implements View.OnClickListene
 
         toDoSplash = (Button) findViewById(R.id.toDoSplash);
         toDoSplash.setOnClickListener(this);
-
     }
 
     @Override

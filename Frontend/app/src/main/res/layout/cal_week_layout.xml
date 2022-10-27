@@ -15,7 +15,7 @@
         android:background="@null"
         android:onClick="dailyAction"
         android:text="Daily"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -54,7 +54,7 @@
             android:background="@null"
             android:onClick="nextWeekAction"
             android:text="@string/forward"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
 
