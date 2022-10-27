@@ -36,8 +36,8 @@ public class UserController {
     }
 
     @PatchMapping (value = "/{id}/password")
-    public ResponseEntity<User> updateRecipesIngredient(@RequestBody String password, @PathVariable Long id) {
-        User updatedPassword = userService.addPassword(password, id);
+    public ResponseEntity<User> updatePassword(@RequestBody String password, @PathVariable Long id) {
+        User updatedPassword = userService.updatePassword(password, id);
         return new ResponseEntity<>(updatedPassword, HttpStatus.OK);
     }
 

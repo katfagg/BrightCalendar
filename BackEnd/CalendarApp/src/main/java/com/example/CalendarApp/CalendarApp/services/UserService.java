@@ -22,9 +22,9 @@ public class UserService {
         userRepository.save(newUser);
         return newUser;
     }
-    public User addPassword(String password, Long id) {
+    public User updatePassword(String password, Long id) {
         User user = userRepository.findById(id).get();
-        user.getPassword().addAll(password);
+        user.setPassword(password);
         userRepository.save(user);
         return user;
 

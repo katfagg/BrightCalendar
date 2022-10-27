@@ -27,9 +27,9 @@ public class NoteService {
         return newNote;
     }
 
-    public Note addName(String name, Long id) {
+    public Note updateName(String name, Long id) {
         Note note = noteRepository.findById(id).get();
-        note.getName().addAll(name);
+        note.setName(name);
         noteRepository.save(note);
         return note;
 

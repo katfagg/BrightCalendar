@@ -37,7 +37,7 @@ public class NoteController {
 
     @PatchMapping (value = "/{id}/name")
     public ResponseEntity<Note> updateNotesName(@RequestBody String name, @PathVariable Long id) {
-        Note updatedName = noteService.addName(name, id);
+        Note updatedName = noteService.updateName(name, id);
         return new ResponseEntity<>(updatedName, HttpStatus.OK);
     }
 
