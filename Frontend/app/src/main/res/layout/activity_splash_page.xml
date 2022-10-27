@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bright Calendar"
+        android:textSize="60dp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/bannerDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plan your day the right way"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/banner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="40dp"
+        />
+
+    <Button
+        android:id="@+id/calendarSplash"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/bannerDescription"
+        android:layout_centerHorizontal="true"
+        android:text="Calendar"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/toDoSplash"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/calendarSplash"
+        android:layout_centerHorizontal="true"
+        android:text="To Do List"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/notesSplash"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/toDoSplash"
+        android:layout_centerHorizontal="true"
+        android:text="Notes"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

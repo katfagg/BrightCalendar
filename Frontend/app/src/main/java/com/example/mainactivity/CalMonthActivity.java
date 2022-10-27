@@ -1,7 +1,7 @@
 package com.example.mainactivity;
 
-import static com.example.calendarfrontend.CalendarUtils.daysInMonthArray;
-import static com.example.calendarfrontend.CalendarUtils.monthYearFromDate;
+import static com.example.mainactivity.CalendarUtils.daysInMonthArray;
+import static com.example.mainactivity.CalendarUtils.monthYearFromDate;
 
 import android.content.Intent;
 import android.os.Bundle;
