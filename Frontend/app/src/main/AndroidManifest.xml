@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MainActivity"
         tools:targetApi="31">
         <activity
+            android:name=".CalDayActivity"
+            android:exported="true" />
+        <activity android:name=".EventEditActivity" />
+        <activity android:name=".CalWeekActivity" />
+        <activity android:name=".CalMonthActivity" />
+        <activity
             android:name=".User"
             android:exported="false">
             <meta-data
