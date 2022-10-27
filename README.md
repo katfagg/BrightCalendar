@@ -6,8 +6,8 @@ This project is designed to help you plan your day to day schedule through mappi
 
 - [Project overview](#project-overview)
 - [Setup instructions](#setup-instructions)
-- [Wireframes](#wireframes)
-- [POJOs](POJOs)
+- [Project Structure - Wireframes](#Project-Structure--Wireframes)
+- [POJO's](POJO's)
 - [CRUD commands](CRUD-commands)
 
 ## Project Overview
