@@ -4,11 +4,11 @@ This project is designed to help you plan your day to day schedule through mappi
 
 ## Table of Contents
 
-- Project overview
-- Setup instructions
-- Wireframes
-- POJOs
-- CRUD commands
+- [Project overview](#project-overview)
+- [Setup instructions](#setup-instructions)
+- [Wireframes](#wireframes)
+- [POJOs](POJOs)
+- [CRUD commands](CRUD-commands)
 
 ## Project Overview
 
