@@ -5,7 +5,7 @@ import android.graphics.Paint
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
-import com.example.calendarfrontend.databinding.TaskItemCellBinding
+import com.example.mainactivity.databinding.TaskItemCellBinding
 import java.time.format.DateTimeFormatter
 
 

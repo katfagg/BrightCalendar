@@ -9,8 +9,7 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.calendarfrontend.TaskItemClickListener
-import com.example.calendarfrontend.databinding.ToDoMainBinding
+import com.example.mainactivity.databinding.ToDoMainBinding
 
 class MainActivityKot : AppCompatActivity(), TaskItemClickListener {
     private lateinit var binding: ToDoMainBinding
