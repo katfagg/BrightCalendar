@@ -1,4 +1,4 @@
-# Bright Calender APP
+# Bright Calender App
 
 This project is designed to help you plan your day to day schedule through mapping out goals and prioritise tasks efficiently.
 
