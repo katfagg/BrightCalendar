@@ -20,10 +20,14 @@ Features include:
 
 ## Set Up Instructions
 
-1. Download app
-2. Register details / log in
-3. Use calendar as prefered, add events etc.
-4. Use notes page to add extra notes
+1. First ensure that Android Studio is installed.
+2. Then, clone this repository by clicking the green 'code' sign on top of this page. Click the SSH key and type in your terminal the following: git clone "git@github.com:katfagg/BrightCalendar.git".
+3. Open the file.
+4. Create a Firebase authentication and real-time database using the Firebase console.
+5. Then, use the Android Studio Firebase tools to connect to Firebase and install the relevant SDK's.
+6. Press the green run button that resembles a triangle at the top of the file.
+7. An emulator will appear on the right hand side of the page.
+8. You can now log in or register to the Calendar app.
 
 
 ## Project Structure - Wireframes (UML, ERD)
@@ -71,3 +75,5 @@ For the extensions our team had come up with a number a great ideas to implement
 - Calendar....
 - Adding and customising to a users desired color scheme
 - Create groups of users to use a shared page
+
+In the future we would like to host the app on Android Playstore for users to really use.
