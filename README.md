@@ -35,9 +35,9 @@ Features include:
 
 We have also used POJO's (Plain Old Java Objects) within our project. Here are some listed below.
 
-- User - id, name, email, password
-- ToDoList - id, name, date, time
-- Notes - id, name
+- User - ID, name, email, password
+- ToDoList - ID, name, date, time
+- Notes - ID, name
 
 
 ## CRUD functions / Commands
@@ -46,6 +46,19 @@ We have applied CRUD functionality to each class. Here are some listed below:
 
 localhost:8080/...
 
+
+| HTTP Request Paths | Request Type | Description |
+|:---:|:---:|:---:|
+| .../ | GET | Gets the user by ID |
+| .../ | POST | Creates the user |
+| .../| PATCH | Updates the users password by ID |
+| .../ | GET | Gets the to do list by ID |
+| .../ | POST | Creates the to do list |
+| .../ | DELETE | Deletes the to do list by ID |
+| .../ | GET | Gets the notes by ID |
+| .../ | POST | Posts a note |
+| .../ | PATCH | Patchs a note by ID and name  |
+| .../ | DELETE | Deletes the note by ID |
 
 
 
