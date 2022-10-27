@@ -62,6 +62,17 @@
         <activity
             android:name=".MainActivityKot">
         </activity>
+        <activity
+            android:name=".NoteEditorActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NoteActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
