@@ -10,23 +10,22 @@ This project is designed to help you plan your day to day schedule through mappi
 - POJOs
 - CRUD commands
 
-##Project Overview
+## Project Overview
 
 Bugdroid Baddies have been tasked to Our Bright Calendar is an accesible, user friendly app aimed for those looking for a way to keep organised. This was created using Android Studio and Spring to come up with the finest calendar app for the go.
 
 Features include:
 
 
-##Set Up Instructions
+## Set Up Instructions
 
-1. Search Bright Calendar at the play store on Android phone 
-2. Download app
-3. Register details / log in
-4. Use calendar as prefered, add events etc.
-5. Use notes page to add extra notes
+1. Download app
+2. Register details / log in
+3. Use calendar as prefered, add events etc.
+4. Use notes page to add extra notes
 
 
-##Project Structure - Wireframes (UML, ERD)
+## Project Structure - Wireframes (UML, ERD)
 
 ![alt text](https://github.com/katfagg/BrightCalendar/blob/main/Screenshot%202022-10-20%20at%2010.11.37.png)
 ![alt text](https://github.com/katfagg/BrightCalendar/blob/main/Screenshot%202022-10-20%20at%2012.27.27.png)
