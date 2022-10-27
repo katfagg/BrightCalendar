@@ -4,12 +4,12 @@ This project is designed to help you plan your day to day schedule through mappi
 
 ## Table of Contents
 
-- [Project overview](#project-overview)
-- [Set Up instructions](#set-up-instructions)
-- [Project Structure - Wireframes (UML, ERD)](#Project-Structure--Wireframes-(UML,ERD))
-- [POJOs](POJOs)
-- [CRUD Functions/commands](CRUD-Functions--commands)
-- [Further Implementations and Extensions](Further-Implementations-and-Extensions)
+- Project overview
+- Set Up instructions
+- Project Structure - Wireframes (UML, ERD
+- POJOs
+- CRUD Functions/commands
+- Further Implementations and Extensions
 
 ## Project Overview
 
@@ -60,10 +60,6 @@ localhost:8080/...
 | .../ | POST | Posts a note |
 | .../ | PATCH | Patchs a note by ID and name  |
 | .../ | DELETE | Deletes the note by ID |
-
-
-
-
 
 
 
