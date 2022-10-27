@@ -5,9 +5,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
-import com.example.calendarfrontend.TaskItemClickListener
-import com.example.calendarfrontend.TaskItemViewHolder
-import com.example.calendarfrontend.databinding.TaskItemCellBinding
+import com.example.mainactivity.TaskItemClickListener
+import com.example.mainactivity.TaskItemViewHolder
+import com.example.mainactivity.databinding.TaskItemCellBinding
 
 class TaskItemAdapter(
         private val taskItems: List<TaskItem>,

@@ -10,9 +10,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.ViewModelProvider
-import com.example.calendarfrontend.TaskItem
-import com.example.calendarfrontend.TaskViewModel
-import com.example.calendarfrontend.databinding.FragmentNewTaskSheetBinding
+import com.example.mainactivity.TaskItem
+import com.example.mainactivity.TaskViewModel
+import com.example.mainactivity.databinding.FragmentNewTaskSheetBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import java.time.LocalTime
 
