@@ -5,10 +5,11 @@ This project is designed to help you plan your day to day schedule through mappi
 ## Table of Contents
 
 - [Project overview](#project-overview)
-- [Setup instructions](#setup-instructions)
-- [Project Structure - Wireframes](#Project-Structure--Wireframes)
-- [POJO's](POJO's)
-- [CRUD commands](CRUD-commands)
+- [Set Up instructions](#set-up-instructions)
+- [Project Structure - Wireframes (UML, ERD)](#Project-Structure--Wireframes-(UML,ERD))
+- [POJOs](POJOs)
+- [CRUD Functions/commands](CRUD-Functions--commands)
+- [Further Implementations](further-implementations)
 
 ## Project Overview
 
@@ -31,7 +32,7 @@ Features include:
 ![alt text](https://github.com/katfagg/BrightCalendar/blob/main/Screenshot%202022-10-20%20at%2012.27.27.png)
 
 
-## POJO's
+## POJOs
 
 We have also used POJO's (Plain Old Java Objects) within our project. Here are some listed below.
 
